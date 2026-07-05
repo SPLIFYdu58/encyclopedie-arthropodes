@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Encyclopédie des Arthropodes - Walfarm Family</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-mark">✦</div>
+    <div class="brand-title">Encyclopédie des Arthropodes</div>
+    <a href="#recherche" class="top-search">Rechercher</a>
+  </header>
+
+  <section class="hero">
+    <img src="images/banniere-walfarm.jpg" alt="Bannière Walfarm Family" class="hero-banner" />
+    <div class="logo-wrap">
+      <img src="images/logo-walfarm.jpg" alt="Logo Walfarm Family" class="logo" />
+    </div>
+    <p class="byline">Walfarm Family</p>
+    <div class="ornament"><span></span>✦<span></span></div>
+    <h1>Encyclopédie des<br />Arthropodes</h1>
+    <p class="intro">
+      Bienvenue dans l'encyclopédie numérique de Walfarm Family. Retrouvez ici les fiches d'élevage détaillées correspondant aux cartes de collection.
+    </p>
+  </section>
+
+  <main>
+    <section id="recherche" class="search-section">
+      <input id="searchInput" type="search" placeholder="Rechercher une espèce, un nom scientifique ou une catégorie..." />
+    </section>
+
+    <section class="collections">
+      <p class="section-kicker">Collections</p>
+      <h2>Les grandes familles</h2>
+      <div id="categoryGrid" class="category-grid"></div>
+    </section>
+
+    <section id="results" class="results hidden">
+      <p class="section-kicker">Recherche</p>
+      <h2>Résultats</h2>
+      <div id="resultsGrid" class="species-grid"></div>
+    </section>
+
+    <section class="species-preview">
+      <p class="section-kicker">Fiches</p>
+      <h2>Premières fiches</h2>
+      <div id="speciesGrid" class="species-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Walfarm Family — Encyclopédie des Arthropodes</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
