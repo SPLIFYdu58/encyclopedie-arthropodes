@@ -1,11 +1,1 @@
-const searchInput = document.querySelector('#recherche');
-if (searchInput) {
-  const items = [...document.querySelectorAll('[data-search]')];
-  searchInput.addEventListener('input', () => {
-    const q = searchInput.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    items.forEach(item => {
-      const text = (item.innerText + ' ' + item.dataset.search).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-      item.style.display = text.includes(q) ? '' : 'none';
-    });
-  });
-}
+const input=document.querySelector('#recherche');if(input){input.addEventListener('input',()=>{const q=input.value.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');document.querySelectorAll('[data-search]').forEach(el=>{const text=(el.dataset.search+' '+el.textContent).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');el.style.display=text.includes(q)?'':'none';});});}
