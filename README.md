@@ -1,13 +1,22 @@
-# Walfarm Family — Encyclopédie des Arthropodes v21
+# Walfarm Family — Encyclopédie des Arthropodes v22
 
-Version complète avec :
+Version prête à déposer sur GitHub Pages.
 
-- 11 Phasmatodea validés
-- 12 Blattodea validées
-- 23 fiches détaillées individuelles
-- Pages `phasmes.html` et `blattes.html`
-- Images dans `images/`
-- Fiches dans `fiches/`
-- Recherche intégrée sur les pages de collection
+## Contenu
+- 11 phasmes
+- 13 blattes
+- 11 mantes
+- 35 espèces au total
 
-Déploiement GitHub Pages : envoyer tout le contenu du dossier `walfarm_site_v21` à la racine du dépôt.
+## Fichiers principaux
+- index.html
+- phasmes.html
+- blattes.html
+- mantes.html
+- fiches/
+- images/
+- style.css
+- script.js
+
+## Installation
+Remplacer les fichiers du site actuel par le contenu de ce dossier.
