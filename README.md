@@ -1,13 +1,5 @@
-# Encyclopédie des Arthropodes - Walfarm Family
+# Encyclopédie des Arthropodes - Famille Walfarm
 
-Version V16 : ajout de la fiche Phasme dilaté (*Heteropteryx dilatata*).
+V18 : ajout de Phasma gigas « Jailolo » + archive complète vérifiée.
 
-Espèces phasmes intégrées :
-- *Peruphasma schultei*
-- *Extatosoma tiaratum*
-- *Phyllium philippinicum*
-- *Eurycantha calcarata*
-- *Heteropteryx dilatata*
-
-
-V17 : ajout du Phasme de Sungaya (Sungaya inexpectata) et image Heteropteryx confirmée.
+Contient toutes les images et fiches des phasmes intégrés.
