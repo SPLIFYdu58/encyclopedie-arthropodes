@@ -1,3 +1,3 @@
-# Encyclopédie des Arthropodes - Walfarm Family
+Encyclopédie des Arthropodes - Famille Walfarm
 
-V9 : fond jungle immersif, logo centré, catégories, page Phasmes et fiche Peruphasma schultei.
+V10 : fond jungle visible sur toute la page, moins de noir, structure Accueil > Phasmes > Fiche conservée.
