@@ -14,6 +14,13 @@ const categories = [
 ];
 
 const species = [
+  {
+    nom: 'Phasme noir du Pérou',
+    scientifique: 'Peruphasma schultei',
+    categorie: 'Phasmes',
+    desc: 'Première fiche complète de l’encyclopédie.',
+    url: 'fiches/peruphasma-schultei.html'
+  },
   { nom: 'Mygale Goliath', scientifique: 'Theraphosa blondi', categorie: 'Arachnides', desc: 'Fiche à compléter.' },
   { nom: 'Veuve noire', scientifique: 'Latrodectus mactans', categorie: 'Arachnides', desc: 'Fiche à compléter.' },
   { nom: 'Araignée à abdomen-bouclier', scientifique: 'Cyclocosmia ricketti', categorie: 'Arachnides', desc: 'Fiche à compléter.' }
@@ -36,14 +43,17 @@ function renderCategories() {
 }
 
 function renderSpecies(target, list) {
-  target.innerHTML = list.length ? list.map(sp => `
-    <article class="species-card">
+  target.innerHTML = list.length ? list.map(sp => {
+    const content = `
       <small>${sp.categorie}</small>
       <h3>${sp.nom}</h3>
       <p><em>${sp.scientifique}</em></p>
       <p>${sp.desc}</p>
-    </article>
-  `).join('') : '<p class="empty">Aucun résultat trouvé.</p>';
+    `;
+    return sp.url
+      ? `<a class="species-card species-link" href="${sp.url}">${content}</a>`
+      : `<article class="species-card">${content}</article>`;
+  }).join('') : '<p class="empty">Aucun résultat trouvé.</p>';
 }
 
 searchInput.addEventListener('input', () => {
