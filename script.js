@@ -1,10 +1,2 @@
-const search = document.getElementById('recherche');
-if (search) {
-  search.addEventListener('input', () => {
-    const q = search.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    document.querySelectorAll('[data-search]').forEach(el => {
-      const data = el.dataset.search.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-      el.style.display = data.includes(q) ? '' : 'none';
-    });
-  });
-}
+const searchInput=document.getElementById('recherche');
+if(searchInput){searchInput.addEventListener('input',()=>{const q=searchInput.value.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');document.querySelectorAll('[data-search]').forEach(el=>{const txt=(el.innerText+' '+el.dataset.search).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');el.style.display=txt.includes(q)?'':'none';});});}
