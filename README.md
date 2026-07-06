@@ -1,3 +1,3 @@
-# Encyclopédie des Arthropodes - Walfarm Family
+# Encyclopédie des Arthropodes - Famille Walfarm
 
-V4 : navigation accueil → catégorie Phasmes → fiche complète Peruphasma schultei.
+V5 : logo réel restauré, bannière non recadrée, page Phasmes accessible depuis la racine.

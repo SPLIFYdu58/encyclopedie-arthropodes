@@ -1,1 +1,10 @@
-const input=document.querySelector('#recherche');if(input){input.addEventListener('input',()=>{const q=input.value.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');document.querySelectorAll('[data-search]').forEach(el=>{const text=(el.dataset.search+' '+el.textContent).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');el.style.display=text.includes(q)?'':'none';});});}
+const search = document.getElementById('recherche');
+if (search) {
+  search.addEventListener('input', () => {
+    const q = search.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    document.querySelectorAll('[data-search]').forEach(el => {
+      const data = el.dataset.search.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+      el.style.display = data.includes(q) ? '' : 'none';
+    });
+  });
+}
