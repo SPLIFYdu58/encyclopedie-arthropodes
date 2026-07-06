@@ -8,52 +8,77 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="brand-mark">✦</div>
-    <div class="brand-title">Encyclopédie des Arthropodes</div>
-    <a href="#recherche" class="top-search">Rechercher</a>
+    <a class="brand" href="index.html">✦ Encyclopédie des Arthropodes</a>
+    <a class="search-link" href="#recherche">Rechercher</a>
   </header>
 
-  <section class="hero">
-    <img src="images/banniere-walfarm.jpg" alt="Bannière Walfarm Family" class="hero-banner" />
-    <div class="logo-wrap">
-      <img src="images/logo-walfarm.jpg" alt="Logo Walfarm Family" class="logo" />
-    </div>
-    <p class="byline">Walfarm Family</p>
-    <div class="ornament"><span></span>✦<span></span></div>
-    <h1>Encyclopédie des<br />Arthropodes</h1>
-    <p class="intro">
-      Bienvenue dans l'encyclopédie numérique de Walfarm Family. Retrouvez ici les fiches d'élevage détaillées correspondant aux cartes de collection.
-    </p>
-  </section>
-
   <main>
-    <section id="recherche" class="search-section">
-      <input id="searchInput" type="search" placeholder="Rechercher une espèce, un nom scientifique ou une catégorie..." />
+    <section class="hero">
+      <div class="banner"></div>
+      <div class="logo-circle">W<br><span>Family</span></div>
+      <p class="small-gold">Walfarm Family</p>
+      <div class="ornament">— ✦ —</div>
+      <h1>Encyclopédie des<br>Arthropodes</h1>
+      <p class="intro">Bienvenue dans l’encyclopédie numérique de Walfarm Family. Retrouvez ici les fiches d’élevage détaillées correspondant aux cartes de collection.</p>
+      <input id="recherche" class="search" type="text" placeholder="Rechercher une espèce, un nom scientifique ou une catégorie..." />
     </section>
 
-    <section class="collections">
-      <p class="section-kicker">Collections</p>
+    <section class="section">
+      <p class="label">Collections</p>
       <h2>Les grandes familles</h2>
-      <div id="categoryGrid" class="category-grid"></div>
+      <div class="grid categories">
+        <article class="card" data-search="arachnides araneae mygales araignées amblypyges">
+          <span>Araneae</span><h3>Arachnides</h3><p>Mygales, araignées, amblypyges et espèces apparentées.</p>
+        </article>
+        <article class="card" data-search="scorpions scorpiones">
+          <span>Scorpiones</span><h3>Scorpions</h3><p>Scorpions désertiques, tropicaux et fiches d’élevage.</p>
+        </article>
+        <article class="card" data-search="solifuges solifugae araignée chameau">
+          <span>Solifugae</span><h3>Solifuges</h3><p>Araignées-chameaux et solifuges d’élevage.</p>
+        </article>
+        <article class="card" data-search="phasmes phasmatodea peruphasma schultei">
+          <span>Phasmatodea</span><h3>Phasmes</h3><p>Phasmes feuilles, bâtons, géants et espèces tropicales.</p>
+        </article>
+        <article class="card" data-search="coléoptères coleoptera cétoines lucanes scarabées">
+          <span>Coleoptera</span><h3>Coléoptères</h3><p>Cétoines, lucanes, scarabées et larves saproxyliques.</p>
+        </article>
+        <article class="card" data-search="blattes blattodea">
+          <span>Blattodea</span><h3>Blattes</h3><p>Blattes d’ornement et espèces nourricières.</p>
+        </article>
+        <article class="card" data-search="mantes mantodea">
+          <span>Mantodea</span><h3>Mantes</h3><p>Mantes religieuses, espèces tropicales et maintenance.</p>
+        </article>
+        <article class="card" data-search="fourmis formicidae camponotus">
+          <span>Formicidae</span><h3>Fourmis</h3><p>Fondations, colonies, nids et espèces de fourmis.</p>
+        </article>
+        <article class="card" data-search="mollusques escargots achatina archachatina">
+          <span>Mollusca</span><h3>Mollusques</h3><p>Escargots géants et autres mollusques d’élevage.</p>
+        </article>
+        <article class="card" data-search="myriapodes iules scolopendres">
+          <span>Myriapoda</span><h3>Myriapodes</h3><p>Iules, scolopendres et espèces à nombreuses pattes.</p>
+        </article>
+        <article class="card" data-search="crustacés isopodes cloportes">
+          <span>Crustacea</span><h3>Crustacés</h3><p>Isopodes et autres crustacés terrestres.</p>
+        </article>
+        <article class="card" data-search="autres arthropodes divers">
+          <span>Divers</span><h3>Autres arthropodes</h3><p>Espèces diverses, fiches spéciales et catégories temporaires.</p>
+        </article>
+      </div>
     </section>
 
-    <section id="results" class="results hidden">
-      <p class="section-kicker">Recherche</p>
-      <h2>Résultats</h2>
-      <div id="resultsGrid" class="species-grid"></div>
-    </section>
-
-    <section class="species-preview">
-      <p class="section-kicker">Fiches</p>
+    <section class="section">
+      <p class="label">Fiches</p>
       <h2>Premières fiches</h2>
-      <div id="speciesGrid" class="species-grid"></div>
+      <div class="grid fiches-grid">
+        <a class="species-card" href="fiches/peruphasma-schultei.html" data-search="peruphasma schultei phasme noir du pérou phasmatodea pseudophasmatidae">
+          <img src="images/peruphasma-schultei.png" alt="Carte Peruphasma schultei" />
+          <div><span>Phasmatodea</span><h3>Phasme noir du Pérou</h3><p><em>Peruphasma schultei</em></p></div>
+        </a>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>Walfarm Family — Encyclopédie des Arthropodes</p>
-  </footer>
-
+  <footer>Walfarm Family — Encyclopédie des Arthropodes</footer>
   <script src="script.js"></script>
 </body>
 </html>
