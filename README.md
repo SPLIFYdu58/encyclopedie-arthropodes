@@ -1,3 +1,3 @@
-# Encyclopédie des Arthropodes - Famille Walfarm
+# Encyclopédie des Arthropodes - Walfarm Family
 
-V6 : bannière corrigée avec fond propre, vrai logo intégré, suppression de la bande blanche et du logo inutile sous la bannière.
+Version 7 : base propre avec vraie bannière, vrai logo, page Phasmes et fiche Peruphasma schultei fonctionnelle.
