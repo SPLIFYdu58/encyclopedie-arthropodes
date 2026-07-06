@@ -1,3 +1,3 @@
-# Encyclopédie des Arthropodes - Walfarm Family
+# Walfarm Family - Encyclopédie des Arthropodes
 
-V11 : fond jungle réel sur toute la page, logo réduit, navigation Accueil → Phasmes → fiche complète.
+Version 12 : mise en page stabilisée, fond jungle visible, logo agrandi et navigation Accueil → Catégorie → Fiche.
