@@ -8,3 +8,6 @@ Espèces phasmes intégrées :
 - *Phyllium philippinicum*
 - *Eurycantha calcarata*
 - *Heteropteryx dilatata*
+
+
+V17 : ajout du Phasme de Sungaya (Sungaya inexpectata) et image Heteropteryx confirmée.
