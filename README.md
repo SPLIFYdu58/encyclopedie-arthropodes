@@ -1,17 +1,13 @@
-# Encyclopédie des Arthropodes — Walfarm Family
+# Walfarm Family — Encyclopédie des Arthropodes v21
 
-Version v20 avec 11 fiches phasmes intégrées.
+Version complète avec :
 
-## Phasmes inclus
+- 11 Phasmatodea validés
+- 12 Blattodea validées
+- 23 fiches détaillées individuelles
+- Pages `phasmes.html` et `blattes.html`
+- Images dans `images/`
+- Fiches dans `fiches/`
+- Recherche intégrée sur les pages de collection
 
-- Peruphasma schultei
-- Extatosoma tiaratum
-- Phyllium philippinicum
-- Eurycantha calcarata
-- Heteropteryx dilatata
-- Sungaya inexpectata
-- Phasma gigas « Jailolo »
-- Epidares nolimetangere
-- Orthomeria kangi
-- Pharnacia ponderosa
-- Carausius morosus
+Déploiement GitHub Pages : envoyer tout le contenu du dossier `walfarm_site_v21` à la racine du dépôt.
