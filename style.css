@@ -2,3 +2,15 @@
 
 .mini-nav{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 @media(max-width:560px){.mini-nav{gap:6px}.nav-pill{padding:8px 10px}}
+
+
+/* Correctif v23 : affichage propre des fiches Mantodea */
+.fiche-page{padding:28px 18px 60px;}
+.fiche-hero{max-width:1100px;margin:30px auto 32px;padding:26px;display:grid;grid-template-columns:minmax(240px,360px) 1fr;gap:30px;align-items:center;}
+.fiche-hero .fiche-card-img{width:100%;max-width:360px;height:auto;object-fit:contain;justify-self:center;}
+.score-pill{display:inline-block;margin-top:14px;padding:9px 14px;border:1px solid #b88935;border-radius:999px;color:#e9bd62;background:rgba(8,11,8,.68);}
+.latin{font-size:26px;color:#f0d8a5;}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;}
+.info-grid>div{border:1px solid #5f4724;border-radius:14px;padding:16px;background:rgba(18,25,20,.75);}
+.info-grid h3{color:#e5bd65;margin:0 0 8px;font-size:22px;}
+@media(max-width:800px){.fiche-hero{grid-template-columns:1fr;padding:18px}.fiche-hero .fiche-card-img{max-width:300px}.latin{font-size:21px}}
