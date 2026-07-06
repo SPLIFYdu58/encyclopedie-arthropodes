@@ -1,6 +1,10 @@
-Encyclopédie des Arthropodes - Famille Walfarm
+# Encyclopédie des Arthropodes - Walfarm Family
 
-V14 : ajout de Phyllium philippinicum à la catégorie Phasmes.
+Version V16 : ajout de la fiche Phasme dilaté (*Heteropteryx dilatata*).
 
-
-V15 : ajout du Phasme cuir — Eurycantha calcarata.
+Espèces phasmes intégrées :
+- *Peruphasma schultei*
+- *Extatosoma tiaratum*
+- *Phyllium philippinicum*
+- *Eurycantha calcarata*
+- *Heteropteryx dilatata*
