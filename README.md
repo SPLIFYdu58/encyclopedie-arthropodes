@@ -1,3 +1,3 @@
-# Walfarm Family - Encyclopédie des Arthropodes
+Encyclopédie des Arthropodes - Famille Walfarm
 
-Version 12 : mise en page stabilisée, fond jungle visible, logo agrandi et navigation Accueil → Catégorie → Fiche.
+V14 : ajout de Phyllium philippinicum à la catégorie Phasmes.
